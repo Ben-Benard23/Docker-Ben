@@ -27,6 +27,7 @@ docker run <image name>: to start and run a container
 docker run --detached or docker run -d : to run docker in detached mode or backgroud mode so you can have access to your terminal while container runs in the backend.
 
 docker run -d -p <host-port:container-port> --name <container name> <image> : to start a container in detached mode, passing  port binding from your host to container port and provifing a name to the container.
+docker run -d --name <conatiner name> <image name> : to start a container with a given name and run it.
 
 docker ps : to list containers running state
 
